@@ -1,11 +1,7 @@
 #include<iostream>
 using namespace std;
 int main()
-{
-	#include <iostream>
-using namespace std;
-
-int main() {
+ {
     int number, range;
 
     // Ask user for the number and the range
@@ -24,6 +20,3 @@ int main() {
     return 0;
 }
 
-	
-	return 0;
-}

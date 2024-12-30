@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	int i, j, N;
+
+	cout << "Enter a number: ";
+	cin >> N;
+
+	for (i = 1; i <= N; i++) {
+		for (j = 1; j <= i; j++) {
+
+			if (j == 1 || j == i || i == N) {
+				cout << "*";
+			}
+			else {
+				cout << " ";
+			}
+		}
+
+		cout << "\n";
+	}
+
+	system("pause");
+	return 0;
+
+}

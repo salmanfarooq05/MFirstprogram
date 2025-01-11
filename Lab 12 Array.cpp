@@ -114,7 +114,7 @@ int main()
 //				int num2;
 //				cout << "\nEnter the number you want to display in array ";
 //				cin >> num2;
-//				arr[j] == num2;
+//				arr[j] = num2;
 //				cout << "\nUpdated number is : " << num2;
 //
 //			}

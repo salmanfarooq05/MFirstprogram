@@ -161,6 +161,59 @@ int main()
 //	}
 //	return 0;
 //}
+Task 10
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declare and initialize the array
+    int arr[] = {1, 2, 3, 4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
+
+    // Display the array before swapping
+    cout << "Array before swapping: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    // Swap the first and last elements
+    int temp = arr[0];
+    arr[0] = arr[n - 1];
+    arr[n - 1] = temp;
+
+    // Display the array after swapping
+    cout << "Array after swapping: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+Task 11
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int arr[5];
+    int max;
+    int s_max;
+    for(int i=0;i<5;i++)
+    {
+        cout<<"Enter the element in array ";
+        cin>>arr[i];
+        if(max<arr[i])
+        {
+            s_max=max;
+            max=arr[i];
+        }
+    }
+    cout<<"Second maximun value is : "<<s_max;
+}
+
+
 				
 
 

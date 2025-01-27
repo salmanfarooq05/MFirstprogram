@@ -1,0 +1,104 @@
+https://www.programiz.com/online-compiler/50nGFFBAqUJbl
+
+
+
+Practice of Array for quiz
+
+Here are 20 practice questions on arrays, linear search, binary search, and bubble sort in C++ for your practice:
+
+
+---
+
+Arrays
+
+1. Write a program to input and display elements of an array.
+
+
+2. Write a program to find the largest and smallest elements in an array.
+
+
+3. Write a program to reverse the elements of an array.
+
+
+4. Write a program to find the sum and average of all elements in an array.
+
+
+5. Write a program to count the frequency of a specific number in an array.
+
+
+6. Write a program to merge two arrays into a single array.
+
+
+7. Write a program to sort an array in ascending order using any sorting algorithm.
+
+
+8. Write a program to rotate an array by a given number of positions to the left.
+
+
+9. Write a program to find the second largest element in an array.
+
+
+10. Write a program to check if a given array is a palindrome.
+
+
+
+
+---
+
+Linear Search
+
+11. Write a program to implement linear search to find an element in an array.
+
+
+12. Modify the linear search program to count the occurrences of the target element in the array.
+
+
+13. Write a program using linear search to find the smallest and largest numbers in an unsorted array.
+
+
+14. Write a program to search for multiple occurrences of an element and display their indices using linear search.
+
+
+15. Write a program to compare the time complexity of linear search for different sizes of arrays.
+
+
+
+
+---
+
+Binary Search
+
+16. Write a program to implement binary search on a sorted array.
+
+
+17. Modify the binary search program to return the index of the first and last occurrences of a target element.
+
+
+18. Write a program to search for an element in a rotated sorted array using binary search.
+
+
+19. Compare the execution time of linear search and binary search for the same input data.
+
+
+20. Implement a program to find the square root of a number using binary search (approximation).
+
+
+
+
+---
+
+Bubble Sort
+
+21. Write a program to implement the bubble sort algorithm to sort an array in ascending order.
+
+
+22. Modify the bubble sort program to sort the array in descending order.
+
+
+23. Write a program to count the number of swaps performed during bubble sort.
+
+
+24. Write a program to optimize bubble sort by stopping if the array becomes sorted before completing all passes.
+
+
+25. Write a program to sort an array of strings alphabetically using bubble sort.

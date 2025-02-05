@@ -1,0 +1,38 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    const char Name [] = "Blitzerine Codes\0";
+    
+    cout << Name<<endl;
+    
+    int Count = 0;
+    char Temp[30] = {'\0'};
+    char Word[30] = {'\0'};
+    int Max = -1;
+    for (int i = 0;Name[i]!='\0';i++)
+    {
+        if (Name[i] == ' ')
+        {
+            if (Count > Max)
+            {
+                Max = Count;
+                for (int j =0; Temp[j]!='\0';j++)
+                {
+                    Word[j]= Temp[j];
+                }
+                Word[Count]= '\0';
+            }
+            Count = 0;
+        }
+        else
+        {
+            Temp[Count++] = Name[i];
+        }
+        
+        
+    }
+    cout << Max << " "<< Word <<endl;
+    return 0;
+}
